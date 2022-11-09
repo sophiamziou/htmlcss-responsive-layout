@@ -2,4 +2,28 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid blue;
 }
+
+
+/* HEADER */
+
+.header{
+    width: 100%;
+    background-color: rgb(0,132,253);
+}
+
+.row-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+}
+
+.col-h{
+    width: 50px;
+    height: 50px;
+}
+
+
