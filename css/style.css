@@ -240,6 +240,45 @@ button{
     margin: 20px 0;
 }
 
+/* ABOUT US */
+
+.about h2{
+    font-size: 40px;
+    color: rgb(151,146,228);
+    margin: 30px 0;
+}
+
+.about p{
+    line-height: 35px;
+    font-weight: lighter;
+    margin: 30px 0;
+}
+
+/* CEO */
+
+.CEO img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.CEO h3{
+    color: rgb(151,146,228);
+    line-height: 32px;
+    font-size: 25px;
+}
+
+.CEO button{
+    background-color: rgb(151,146,228);
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.CEO > *{
+    margin: 10px 0;
+}
+
 /* RESPONSIVE LAYOUT */
 
 @media screen and (min-width: 768px) {
