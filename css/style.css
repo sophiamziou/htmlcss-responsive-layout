@@ -51,7 +51,7 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .row{
@@ -161,16 +161,49 @@ button{
     color: black;
 }
 
+/* TESTIMONIALS intro and 3 cards */
 
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
+.intro h2{
+    font-size: 25px;
+    margin: 30px 0;
+    color: rgb(151,146,228);
+}
 
+.intro p{
+    font-weight: lighter;
+    line-height: 27px;
+}
 
+.partner-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(151,146,228);
+    border-radius: 40px;
+    padding: 30px 15px;
+}
 
+.partner-card img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
 
-
-
-
-
+.partner-card p{
+    font-weight: lighter;
+    line-height: 27px;
+    margin: 20px 0;
+}
 
 /* RESPONSIVE LAYOUT */
 
