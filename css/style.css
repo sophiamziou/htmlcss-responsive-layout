@@ -60,11 +60,12 @@
         flex-wrap: wrap;
     }
 
-    .w-70{
-        width: 60%;
+    .w-bg{
+        width: 63%;
     }
     
-    .w-30{
+    .w-sm{
         width: 30%;
     }
+
   }
