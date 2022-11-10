@@ -163,6 +163,7 @@ button{
 
 /* TESTIMONIALS intro and 3 cards */
 
+/* INTRO */
 .intro{
     display: flex;
     flex-direction: column;
@@ -180,6 +181,8 @@ button{
     font-weight: lighter;
     line-height: 27px;
 }
+
+/* TESTIMONIALS CARDS */
 
 .partner-card{
     display: flex;
@@ -202,6 +205,38 @@ button{
 .partner-card p{
     font-weight: lighter;
     line-height: 27px;
+    margin: 20px 0;
+}
+
+
+/* BENEFITS SECTION */
+
+.benefit-card{
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.benefit-card h2, .benefit-card h3{
+    color: rgb(151,146,228);
+}
+
+.benefit-card button{
+    color: white;
+    background-color: rgb(151,146,228);
+}
+
+.benefit-card p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+.benefit-card h2{
+    font-size: 40px;
+}
+
+.benefit-card > *{
     margin: 20px 0;
 }
 
