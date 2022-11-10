@@ -210,6 +210,14 @@ button{
 
 /* BENEFITS SECTION */
 
+.title-ben{
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 40px 0;
+}
+
 .benefit-card{
     padding: 10px 30px;
     background-color: white;
@@ -350,8 +358,62 @@ footer{
     }
 
     .w-md{
-        width: calc(100% / 2 - 20px);
+        width: 50%;
+    }
+
+    .w-60{
+        width: calc(60% - 20px);
         margin: 10px;
     }
 
+    .w-40{
+        width: calc(40% - 20px);
+        margin: 10px;
+    }
+
+    .CEO img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .w-footer{
+        width: 70%;
+        margin: 0 auto;
+    }
+  }
+
+@media screen and (min-width: 992px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;    
+    }
+
+    .row{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .w-md{
+        width: 30%;
+    }
+
+    .w-footer{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .w-50{
+        width: 50%;
+    }
+
+    .dir-row{
+        flex-direction: row;
+    }
+  }
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .container{
+        width: 100%;
+        margin: 0 auto;    
+    }
   }
