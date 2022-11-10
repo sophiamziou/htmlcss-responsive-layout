@@ -7,11 +7,11 @@
 }
 
 .bgc-purple{
-    background-color: rgba(151,146,228,255);
+    background-color: rgb(151,146,228);
 }
 
 .bgc-bluecards{
-    background-color: rgba(181,221,255,255);
+    background-color: rgb(181,221,255);
 }
 
 .pad20{
@@ -66,18 +66,6 @@
     margin: 20px auto;
 }
 
-h3{
-    font-size: 25px;
-    color: rgba(0,132,253,255);
-    margin: 30px auto;
-}
-
-p{
-    text-align: left;
-    color: grey;
-    font-weight: 100;
-}
-
 /* BLUE CARDS */
 
 button{
@@ -106,20 +94,72 @@ button{
 }
 
 .cards #icons{
-    color: rgba(0,132,253,255);
+    color: rgb(0,132,253);
     font-size: 60px;
+}
+
+.cards h3{
+    font-size: 25px;
+    color: rgb(0,132,253);
+    margin: 30px auto;
+}
+
+.cards p{
+    text-align: left;
+    color: grey;
+    font-weight: 100;
 }
 
 /* PURPLE SECTION 1 */
 
+.planning{
+    width: 100%;
+    color: white;
+}
+
+.planning img{
+    width: 100%;
+}
+
+.planning h2{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.planning p, .planning-white p{
+    line-height: 25px;
+}
+
+.planning-white{
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
+.planning-white img{
+    width: 100%;
+}
 
+.planning-white h3{
+    margin: 20px 0;
+}
 
+.planning-white p{
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
 
-
-
-
+.planning-white button{
+    background-color: rgb(151,146,228);
+    color: black;
+}
 
 
 
