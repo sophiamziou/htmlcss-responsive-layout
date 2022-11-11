@@ -96,6 +96,10 @@ button{
      margin: 20px 30px;
 }
 
+#bg-card img{
+    width: 100%;
+}
+
 .cards{
     display: flex;
     flex-direction: column;
@@ -390,6 +394,10 @@ footer{
     .w-footer{
         width: 70%;
         margin: 0 auto;
+    }
+
+    #bg-card img{
+        width: 50%;
     }
   }
 
